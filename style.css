@@ -1,0 +1,170 @@
+body
+{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+   
+}
+
+.header a,
+.text1,
+.footer
+{
+ font-size:18px;
+ color:#E5E7EB;
+ text-decoration:none;
+
+}
+.header
+{   
+    display:flex;
+    justify-content:space-around;
+    align-items:baseline;
+    margin:0 0 100px 0;
+    align-self:stretch;
+}
+ul
+{
+    display:flex;
+    list-style:none;
+    margin:0;
+}
+.section1
+{
+    background:#1F2937;
+    color:white;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    flex:1 1 auto;
+}
+.section2
+{
+    display:flex;
+    flex-direction:column;
+    flex:1 1 auto;
+    height:500px;
+    align-items:stretch;
+    justify-content:flex-start;
+    gap:50px;
+}
+
+.slike
+{
+    display:flex;
+    text-align:center;
+}
+
+.content1
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    align-self:stretch;
+
+}
+.title1sk
+{
+    font-size:48px;
+    font-weight:800;
+    color:#F9FAF8;
+
+}
+.title2sk
+{
+    font-size:36px;
+    font-weight:800;
+    color:#1F2937;
+    padding:30px;
+    text-align:center;
+}
+.section3
+{
+    background:#E5E7EB;
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+    display:flex;
+    flex:1 1 auto;
+    
+}
+.footer
+{
+    background:#1F2937;
+}
+
+button
+{
+    background:#3882F6;
+    color:white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid royalblue;
+    width:150px;
+    height:auto;
+}
+
+.section4 
+{
+    background:#3882F6;
+    display:flex;
+    flex:1 1 auto;
+}
+
+.img
+{
+    width:400px;
+    height:auto;
+}
+
+.imgsk2
+{
+    width:200px;
+    height:200px;
+}
+
+.logo
+{
+    width:60px;
+    height:auto;
+}
+
+li
+{
+    margin:20px;
+}
+
+.logo-place
+{
+    font-size:30px;
+    color:#F9FAF8;
+    font-weight:800;
+}
+
+.text
+{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    align-items:flex-start;
+    flex-basis:auto;
+    gap:10px;
+}
+
+.sign-up
+{
+    margin-top:12px;
+}
+
+.slike
+{
+    display:flex;
+}
+
+.item-slika
+{
+    flex:1 1 auto;
+}
