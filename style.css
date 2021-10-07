@@ -56,6 +56,9 @@ ul
 {
     display:flex;
     text-align:center;
+    justify-content:center;
+    gap:40px;
+
 }
 
 .content1
@@ -87,13 +90,28 @@ ul
     font-size:36px;
     font-style:italic;
     color:#1F2937;
+    height:500px;
     display:flex;
-    flex:1 1 auto;
+    flex-flow:column nowrap;
+    flex:0 1 auto;
+    justify-content:center;
+    align-items:stretch;
     
 }
+
 .footer
 {
     background:#1F2937;
+}
+.autor
+{
+    font-size:25px;
+    font-weight:bold;
+    font-style:normal;
+    align-self:center;
+    flex-basis:auto;
+    width:829px;
+    text-align:right;
 }
 
 button
@@ -109,8 +127,11 @@ button
 
 .section4 
 {
-    background:#3882F6;
+    background:white;
+    height:300px;
     display:flex;
+    justify-content:center;
+    align-items:center;
     flex:1 1 auto;
 }
 
@@ -124,6 +145,8 @@ button
 {
     width:200px;
     height:200px;
+    border-radius:40px;
+    border:2px solid rgb(3, 64, 105);
 }
 
 .logo
@@ -158,13 +181,59 @@ li
 {
     margin-top:12px;
 }
-
-.slike
+.sign-up4
 {
-    display:flex;
+    border: 1px solid white;
 }
 
 .item-slika
 {
-    flex:1 1 auto;
+    text-align:center;
+
+}
+
+.citat
+{
+    flex:0.3;
+    align-self:center;
+   
+}
+
+.box
+{
+   background: #3882F6;
+   width:800px;
+   height:auto;
+   padding:40px;
+   border-radius:10px;
+   display:flex;
+   justify-content:space-around;
+
+}
+
+.text-container
+{
+    display:flex;
+    flex-direction:column;
+    
+
+}
+
+.textsk4
+{
+    color:white;
+}
+
+.titlesk4
+{
+    font-weight:bold;
+    color:white;
+    font-size:20px;
+}
+
+.footer{
+    height:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
